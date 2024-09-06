@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "custom_footprints")(type "KiCad")(uri "${KICAD_3RD_PARTY}/EX-CB1-Express/custom_footprints.pretty")(options "")(descr ""))
+)
