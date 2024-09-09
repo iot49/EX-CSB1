@@ -4829,7 +4829,7 @@
 		)
 		(uuid a57a54bc-ac4f-4d7b-8e4a-57654a3de258)
 	)
-	(text "Inductors (6.6x7.1mm):\nSPEC: \nCybermax CMLO0630H150MTT     (JLC C883023) 15uH, Rdc  97 mOhm, Isat 5  , Irms 3   ($.07)\nALTERNATES:\nYJYCoin   YSPI0630A-150      (JLC C497872) 15uH, Rdc  98 mOhm, Isat 5  , Irms 3   ($.08) Pads too big?\nSC Chaing FXL0630-150-M      (JLC C177243) 15uH, Rdc 115 mOhm, Isat 4  , Irms 3   ($.06)\nPROD Tech PSPMAA063T-150M-ANP(JLC C436566) 15uH, Rdc 110 mOhm, Isat 3.5, Irms 3   ($.08)\nCeaiya    CMPI0630-150M      (JLC C917355) 15uH, Rdc 122 mOhm, Isat 4  , Irms 3.5 ($.05)"
+	(text "Inductors (6.6x7.1mm):\nSPEC: \nCybermax CMLO0630H150MTT     (JLC C883023) 15uH, Rdc  97 mOhm, Isat 5  , Irms 3   ($.07)\nALTERNATES:\n** Sunltech SLO0630H150MTT   (JLC 182182) Direct exact replacement **\nYJYCoin   YSPI0630A-150      (JLC C497872) 15uH, Rdc  98 mOhm, Isat 5  , Irms 3   ($.08) Pads too big?\nSC Chaing FXL0630-150-M      (JLC C177243) 15uH, Rdc 115 mOhm, Isat 4  , Irms 3   ($.06)\nPROD Tech PSPMAA063T-150M-ANP(JLC C436566) 15uH, Rdc 110 mOhm, Isat 3.5, Irms 3   ($.08)\nCeaiya    CMPI0630-150M      (JLC C917355) 15uH, Rdc 122 mOhm, Isat 4  , Irms 3.5 ($.05)"
 		(exclude_from_sim no)
 		(at -141.986 93.218 0)
 		(effects
@@ -6383,7 +6383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Alternate" "C497872, C177243"
+		(property "Alternate" "C182182, C497872, C177243"
 			(at 170.18 86.36 90)
 			(effects
 				(font
