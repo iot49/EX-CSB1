@@ -17834,6 +17834,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternate" "C72041"
+			(at 120.65 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "73491a30-5789-47dd-bb9a-666522c47600")
 		)
@@ -20132,7 +20141,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "x"
+		(property "LCSC Part #" "C492421"
+			(at 187.96 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate" "C5156676"
 			(at 187.96 180.34 0)
 			(effects
 				(font

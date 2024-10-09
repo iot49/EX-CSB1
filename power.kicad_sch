@@ -5347,6 +5347,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternate" "C72478"
+			(at 182.88 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "07a103a6-ae39-4e2c-9be7-044bdaae900e")
 		)
@@ -5548,6 +5557,15 @@
 			)
 		)
 		(property "LCSC Part #" "C2972719 "
+			(at 196.85 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate" "C72478"
 			(at 196.85 44.45 0)
 			(effects
 				(font
@@ -7208,6 +7226,15 @@
 			)
 		)
 		(property "LCSC Part #" "C2972719 "
+			(at 210.82 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate" "C72478"
 			(at 210.82 44.45 0)
 			(effects
 				(font
