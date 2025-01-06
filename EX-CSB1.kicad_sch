@@ -17254,6 +17254,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternate" "C239522"
+			(at 238.76 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "38a8da5c-a708-4ddd-8ad0-0f72d5722853")
 		)
@@ -17834,7 +17843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Alternate" "C72041"
+		(property "Alternate" "C72041, C84266"
 			(at 120.65 121.92 90)
 			(effects
 				(font
