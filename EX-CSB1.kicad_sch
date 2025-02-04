@@ -7643,6 +7643,12 @@
 		(uuid "2faf6949-2f79-461f-8c49-b03fcdce9f9a")
 	)
 	(junction
+		(at 154.94 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32efda2b-6677-4710-be1a-08e95404edfe")
+	)
+	(junction
 		(at 101.6 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8051,16 +8057,6 @@
 			(type default)
 		)
 		(uuid "0dd63283-8ce1-4b50-9df8-344180b1424d")
-	)
-	(wire
-		(pts
-			(xy 140.97 231.14) (xy 140.97 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e1cbdba-c95e-4444-9895-bd1c1126fc61")
 	)
 	(wire
 		(pts
@@ -8574,16 +8570,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 223.52) (xy 140.97 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39ce6557-4869-40f7-9079-b8ed8ce5ff26")
-	)
-	(wire
-		(pts
 			(xy 354.33 114.3) (xy 356.87 114.3)
 		)
 		(stroke
@@ -8661,6 +8647,16 @@
 			(type default)
 		)
 		(uuid "42320cef-5060-4eb8-8566-b03241695e91")
+	)
+	(wire
+		(pts
+			(xy 152.4 233.68) (xy 154.94 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4244df4e-04fb-4cc2-be63-b8afb484e7b6")
 	)
 	(wire
 		(pts
@@ -9104,6 +9100,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 236.22) (xy 152.4 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "643747a3-c0f6-4aff-9465-9197eacb41fa")
+	)
+	(wire
+		(pts
 			(xy 322.58 184.15) (xy 331.47 184.15)
 		)
 		(stroke
@@ -9124,7 +9130,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 223.52) (xy 154.94 236.22)
+			(xy 154.94 223.52) (xy 154.94 233.68)
 		)
 		(stroke
 			(width 0)
@@ -9744,6 +9750,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 233.68) (xy 154.94 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a433fc2d-2d72-4e41-a8eb-60c289a2d5f7")
+	)
+	(wire
+		(pts
 			(xy 389.89 186.69) (xy 387.35 186.69)
 		)
 		(stroke
@@ -9921,26 +9937,6 @@
 			(type default)
 		)
 		(uuid "b7d8442d-a4ae-4c74-859f-f07486a81942")
-	)
-	(wire
-		(pts
-			(xy 152.4 223.52) (xy 152.4 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b865c428-7b8f-419f-a573-882d5b80f207")
-	)
-	(wire
-		(pts
-			(xy 140.97 223.52) (xy 152.4 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9b71216-2a39-47a4-a938-a13e1092e32c")
 	)
 	(wire
 		(pts
@@ -12146,17 +12142,6 @@
 		)
 		(uuid "9afd6333-0563-49cb-bc25-ab6340dee571")
 	)
-	(label "usb_vreg"
-		(at 142.24 223.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9d5aaeb0-82c6-4fd4-bb02-feb678964584")
-	)
 	(label "out2b"
 		(at 363.22 60.96 180)
 		(fields_autoplaced yes)
@@ -13015,7 +13000,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "2u2"
 			(at 147.32 170.18 0)
 			(effects
 				(font
@@ -13051,7 +13036,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1525"
+		(property "LCSC Part #" "C12530"
 			(at 144.78 171.45 0)
 			(effects
 				(font
@@ -13281,7 +13266,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "2u2"
 			(at 46.99 59.69 0)
 			(effects
 				(font
@@ -13317,7 +13302,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1525"
+		(property "LCSC Part #" "C12530"
 			(at 44.45 58.42 0)
 			(effects
 				(font
@@ -14303,84 +14288,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 140.97 227.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "277a14e3-6dc2-4984-8bd6-43143b582cac")
-		(property "Reference" "C119"
-			(at 143.51 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 143.51 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "0_my_capacitors:C_1005_(0402)"
-			(at 140.97 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 140.97 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 140.97 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C1525"
-			(at 140.97 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "917b2b56-064f-4853-b7ee-5569a0cfa3f8")
-		)
-		(pin "2"
-			(uuid "8716a326-dcbf-4cfe-9f71-482e86523930")
-		)
-		(instances
-			(project "ex-esp32-cs"
-				(path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b"
-					(reference "C119")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Schottky")
 		(at 101.6 184.15 270)
 		(unit 1)
@@ -14906,73 +14813,6 @@
 			(project "ex-esp32-cs"
 				(path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b"
 					(reference "#PWR0139")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 140.97 231.14 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "34053758-31f8-43bc-92c6-300e037e038b")
-		(property "Reference" "#PWR0142"
-			(at 140.97 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 140.97 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 140.97 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7dcb06c1-f00f-45e4-853a-5171be5c7ca4")
-		)
-		(instances
-			(project "ex-esp32-cs"
-				(path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b"
-					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -16401,78 +16241,6 @@
 			(project "ex-esp32-cs"
 				(path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b"
 					(reference "C108")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 154.94 219.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4db674e6-8c6a-48f4-ac7a-3a86d3c6ee28")
-		(property "Reference" "#PWR0140"
-			(at 154.94 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 154.94 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 154.94 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cc53d862-ef10-4979-8d53-bf179789710c")
-		)
-		(instances
-			(project "ex-esp32-cs"
-				(path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b"
-					(reference "#PWR0140")
-					(unit 1)
-				)
-			)
-			(project "smartwave_v2b"
-				(path "/9cdadb52-c254-47c4-8fab-34d9615cf877"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -20098,6 +19866,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 154.94 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afd1d49f-1048-40ee-bef0-79352045d21a")
+		(property "Reference" "#PWR01"
+			(at 154.94 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 154.94 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40a1e8d4-5d17-48d6-99b6-c47e385b606e")
+		)
+		(instances
+			(project "EX-CSB1"
+				(path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
 		(at 187.96 180.34 0)
 		(unit 1)
@@ -22377,7 +22211,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "2u2"
 			(at 163.83 228.6 0)
 			(effects
 				(font
@@ -22413,7 +22247,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1525"
+		(property "LCSC Part #" "C12530"
 			(at 166.37 227.33 0)
 			(effects
 				(font
