@@ -641,6 +641,24 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Alternate",
+          "name": "Alternate",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "original",
+          "name": "original",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Formerly",
+          "name": "Formerly",
+          "show": false
         }
       ],
       "filter_string": "",
